@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div style="background: red; padding: 5px;">Red</div>
+    <div style="background-color: blue"></div>
+
+</body>
+</html>
+
+<!--
+
+Every box has three properties that can be adjusted to control its appearance:
+1. Border
+    - Border Trifecta: Width Style Color
+    width: takes in a numerical pixel value
+    style: solid, dotted, dash, DEAFULT: NONE
+    color: rgb, hex, common
+    (border: 1px solid black)
+    (color and width will only show if style is also included)
+    (just use the shorthand for border: 1px solid black)
+    
+    /* border: 10px solid black;
+    border-top: 5px solid black;
+    border-right:5px dashed blue;
+    border-bottom: 5px dashed blue; */
+2. Margin (sits outside the border)
+    margin-side vs. margin
+    individually, we can do margin-side for the shorthand we can just use margin
+    margins overlap
+3. Padding
+    The space between the border of a box and any content within it
+4. Selectors
+    a. ID => single elements/unique
+        ex. all the divs in header, give class headerDiv and give font in css file
+            <div class="blackBorder headerDiv">
+    b. Class => are used for multiple elements
+        identified with  a ".
+        css file - .blackBorder {info}
+            add to header = <header class="blackBorder"> etc
+            ex. <div class="headerDiv" id="pinkBorder"> css => #pink {}
+     c. HTML Name
+
+-->

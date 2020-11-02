@@ -1,0 +1,15 @@
+h1{ 
+    color: purple;
+    text-transform: lowercase; 
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  h2{ 
+    color: red;
+    text-align: right;
+  }
+
+  h3{ 
+    color: gold;
+    font-size: 58px;
+  }
