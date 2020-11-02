@@ -1,0 +1,50 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font size: 12;
+    
+}
+h2 {
+    font-family: Arial;
+    font-weight: 2000;
+    text-align: center;
+    font-size: 12;
+}
+p {
+    font-family: Arial;
+    text-align: center;
+    font-size: 12;
+}
+span {
+    font-family: Arial;
+    font-size: 16px;
+  }
+  .container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+  .left-col, .right-col {
+    width: 33.33%;
+    float: left;
+    margin-top: 10px;
+}
+.center-col {
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    width: 33.33%;
+    float: left;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .right-hd {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    border-top-width: 8px;
+    }
