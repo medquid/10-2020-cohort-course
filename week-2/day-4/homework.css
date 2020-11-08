@@ -1,0 +1,43 @@
+@keyframes carousel1 {
+    from {transform: translateX(0px);}
+    to {transform: translateX(-1800px);}
+}
+
+@keyframes carousel2 {
+    from {transform: translateX(0px);}
+    to {transform: translateX(-1440);}
+}
+
+.window {
+    width: 360px; 
+    height: 360px; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+#imageSlider {
+    display: flex;
+    animation-name: carousel1;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+}
+
+.h1 {
+    font-size: arial;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+#imageSlider2 {
+    display: flex;
+    animation-name: carousel2;
+    position: relative;
+    right:2000px;
+    left:0px;
+}
+
+#buttons {
+    font-size: arial;
+    font-size: 12px;
+    text-align: center;
+}

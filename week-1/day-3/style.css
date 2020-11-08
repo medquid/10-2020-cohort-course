@@ -1,6 +1,58 @@
-p {
+span {
   color: blue; /* Styles! */
   font-size: 20px;
   font-style: italic;
   line-height: 22px;
+}
+
+p {
+  color: purple;
+}
+/*
+Colors
+
+RGB Values
+used with rgb(numeric value, numeric value, numeric value)
+
+Hex Code
+base 16 code for rgb
+coolors.co
+
+Color Names
+
+*/
+
+
+body {
+  background-color: rgb(45, 164, 200); 
+  /*background-color: #48d1cc; */
+}
+
+/* PROPERTIES: VALUES */
+
+/*
+type of selectors
+
+html element
+id (#)
+class (.)
+
+8/
+
+/* Colors */
+
+/* color - font color
+background-color - element */
+
+/* coolors.co */
+
+h1{ 
+  text-align: center; /* left, center, right, justify */
+  text-transform: uppercase; /* UPPERCASE, lowercase, Capitalize */
+  text-decoration: underline; /* none, underline */
+  line-height: 120px; /* number, px value */
+  font-weight: bold; /* normal, bold*/
+  font-style: italic; /* regular, basic */
+  font-family: Henny Penny, Arial, sans-serif; /* san-serifc, serif can use just one, multiple separated by a comma is a priority list*/
+  font-size: 150px;
 }
