@@ -3,11 +3,6 @@
     to {transform: translateX(-1800px);}
 }
 
-@keyframes carousel2 {
-    from {transform: translateX(0px);}
-    to {transform: translateX(-1440);}
-}
-
 .window {
     width: 360px; 
     height: 360px; 
@@ -30,10 +25,6 @@
 
 #imageSlider2 {
     display: flex;
-    animation-name: carousel2;
-    position: relative;
-    right:2000px;
-    left:0px;
 }
 
 #buttons {
